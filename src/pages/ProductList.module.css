@@ -1,0 +1,43 @@
+.container{
+
+}
+.filterContent{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    margin: 20px;
+    
+}
+.filter{
+    margin: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .filter{
+       display: flex;
+       flex-direction: column;
+    }
+}
+
+.filterText{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .filterText{
+       margin-right: 0;
+    }
+}
+.filter select{
+    padding: 10px;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .filter select{
+       margin: 10px 0;
+    }
+}
+.filter option{
+   
+}

@@ -1,0 +1,53 @@
+.container{
+    height: 60vh;
+    background-color: #fcf5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .container h1{
+       font-size: 50px;
+    }
+}
+.desc{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .desc{
+       text-align: center;
+       font-size: 18px;
+    }
+}
+.inputContainer{
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+@media only screen and (max-width: 400px) {
+    .inputContainer{
+       width: 80%;
+    }
+}
+.inputContainer input{
+    flex: 8;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+.inputContainer button{
+    flex: 1;
+    border: none;
+    background-color: teal;
+    color: white;
+}

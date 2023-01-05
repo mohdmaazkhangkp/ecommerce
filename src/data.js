@@ -1,0 +1,113 @@
+export const sliderItems = [
+  {
+    id: 1,
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/pink_efac2c29-f659-4c1f-ae2e-f2768b173b3f_1500x.png?v=1671601227",
+    title: "WAVE ELECTRA",
+    numberOfItem:"0",
+    desc: "Connect with Ultra Seamless BT Calling Grab at ₹1799",
+    price:"1799",
+    bg: "rgb(182, 212, 247)",
+  },
+  {
+    id: 2,
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1_c9b2f1a9-f71d-486b-873b-367cee5ffce5_1500x.png?v=1671087364",
+    title: "boat | NETFLIX",
+    numberOfItem:"0",
+    desc: "Made for India to Keep Watching | Stream Edition",
+    price: "1899",
+    bg: "rgb(248, 221, 226)",
+  },
+  {
+    id: 3,
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_0b26a84a-a47f-4767-a893-cea93dc8a23b_1500x.png?v=1645017832",
+    title: "Limited Sunburn Edition",
+    numberOfItem:"0",
+    desc: "Heavy Bass to Live The Sound",
+    price: "2099",
+    bg: "lightslategrey",
+  },
+];
+export const categories = [
+  {
+    id: 1,
+    title: "SMART WATCHES",
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_1500x.png?v=1650386995",
+  },
+  {
+    id: 2,
+    title: "AIR PODES",
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/grey_92c7203d-e618-4992-864f-cc69f45cbdb2_1500x.png?v=1648723865",
+  },
+  {
+    id: 3,
+    title: "ROCKERZ WIRELESS",
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/e5881832-36f8-4c1c-a767-10f2c2a55a02_1500x.png?v=1625046573",
+  },
+];
+
+export const popularProducts = [
+  {
+    id: 1,
+    title: "NeckBand",
+    numberOfItem:"0",
+    desc: "Say goodbye to noise from the outside world and plug into your musical serenity with the best wireless headphones boAt Rockerz 235V2. The latest Bluetooth v5.0 in boAt Rockerz 235V2 offers a seamless wireless experience while you listen to your sounds. Now you don’t have to wait for long while the Bluetooth headphones get charged as it also comes with Fast Charging technology. The IPX5 sweat and water resistance offers a shield to your headset, whether you sweat it out at the gym or get indulged in adrenaline-pumping action. It also offers call vibration alert feature to the users. With in-built mic, it supports seamless hands-free communication. With a playtime of up to 8 hours, remain plugged in to the rhythms of fun, life and energy on your boAt Rockerz 235V2.",
+    price: "1199",
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img-R333_1500x.png?v=1671194172",
+  },
+  {
+    id: 2,
+    title: "Wireless Headphone",
+    numberOfItem:"0",
+    desc: "Say goodbye to noise from the outside world and plug into your musical serenity with the best wireless headphones boAt Rockerz 235V2. The latest Bluetooth v5.0 in boAt Rockerz 235V2 offers a seamless wireless experience while you listen to your sounds. Now you don’t have to wait for long while the Bluetooth headphones get charged as it also comes with Fast Charging technology. The IPX5 sweat and water resistance offers a shield to your headset, whether you sweat it out at the gym or get indulged in adrenaline-pumping action. It also offers call vibration alert feature to the users. With in-built mic, it supports seamless hands-free communication. With a playtime of up to 8 hours, remain plugged in to the rhythms of fun, life and energy on your boAt Rockerz 235V2.",
+    price: "2449",
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c9b304e6-1451-4ac7-95a1-5aa1cf51df05_1500x.png?v=1625046144",
+  },
+  {
+    id: 3,
+    title: "Smart Watch",
+    numberOfItem:"0",
+    desc: "Say goodbye to noise from the outside world and plug into your musical serenity with the best wireless headphones boAt Rockerz 235V2. The latest Bluetooth v5.0 in boAt Rockerz 235V2 offers a seamless wireless experience while you listen to your sounds. Now you don’t have to wait for long while the Bluetooth headphones get charged as it also comes with Fast Charging technology. The IPX5 sweat and water resistance offers a shield to your headset, whether you sweat it out at the gym or get indulged in adrenaline-pumping action. It also offers call vibration alert feature to the users. With in-built mic, it supports seamless hands-free communication. With a playtime of up to 8 hours, remain plugged in to the rhythms of fun, life and energy on your boAt Rockerz 235V2.",
+    price: "1899",
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main6_2_600x.png?v=1640628318",
+  },
+  {
+    id: 4,
+    title: "EarPods",
+    numberOfItem:"0",
+    desc: "Say goodbye to noise from the outside world and plug into your musical serenity with the best wireless headphones boAt Rockerz 235V2. The latest Bluetooth v5.0 in boAt Rockerz 235V2 offers a seamless wireless experience while you listen to your sounds. Now you don’t have to wait for long while the Bluetooth headphones get charged as it also comes with Fast Charging technology. The IPX5 sweat and water resistance offers a shield to your headset, whether you sweat it out at the gym or get indulged in adrenaline-pumping action. It also offers call vibration alert feature to the users. With in-built mic, it supports seamless hands-free communication. With a playtime of up to 8 hours, remain plugged in to the rhythms of fun, life and energy on your boAt Rockerz 235V2.",
+    price: "2699",
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_41abf7ad-3d7f-4189-a93a-08fefd02ba45_600x.png?v=1647426798",
+  },
+  {
+    id: 5,
+    title: "Speaker",
+    numberOfItem:"0",
+    desc: "Say goodbye to noise from the outside world and plug into your musical serenity with the best wireless headphones boAt Rockerz 235V2. The latest Bluetooth v5.0 in boAt Rockerz 235V2 offers a seamless wireless experience while you listen to your sounds. Now you don’t have to wait for long while the Bluetooth headphones get charged as it also comes with Fast Charging technology. The IPX5 sweat and water resistance offers a shield to your headset, whether you sweat it out at the gym or get indulged in adrenaline-pumping action. It also offers call vibration alert feature to the users. With in-built mic, it supports seamless hands-free communication. With a playtime of up to 8 hours, remain plugged in to the rhythms of fun, life and energy on your boAt Rockerz 235V2.",
+    price: "1499",
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1200f_main1_1500x.png?v=1632893558",
+  },
+  {
+    id: 6,
+    title: "Wired Earphone",
+    numberOfItem:"0",
+    desc: "Say goodbye to noise from the outside world and plug into your musical serenity with the best wireless headphones boAt Rockerz 235V2. The latest Bluetooth v5.0 in boAt Rockerz 235V2 offers a seamless wireless experience while you listen to your sounds. Now you don’t have to wait for long while the Bluetooth headphones get charged as it also comes with Fast Charging technology. The IPX5 sweat and water resistance offers a shield to your headset, whether you sweat it out at the gym or get indulged in adrenaline-pumping action. It also offers call vibration alert feature to the users. With in-built mic, it supports seamless hands-free communication. With a playtime of up to 8 hours, remain plugged in to the rhythms of fun, life and energy on your boAt Rockerz 235V2.",
+    price: "499",
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/103_1500x.png?v=1574927262",
+  },
+  {
+    id: 7,
+    title: "EarPods",
+    numberOfItem:"0",
+    desc: "Say goodbye to noise from the outside world and plug into your musical serenity with the best wireless headphones boAt Rockerz 235V2. The latest Bluetooth v5.0 in boAt Rockerz 235V2 offers a seamless wireless experience while you listen to your sounds. Now you don’t have to wait for long while the Bluetooth headphones get charged as it also comes with Fast Charging technology. The IPX5 sweat and water resistance offers a shield to your headset, whether you sweat it out at the gym or get indulged in adrenaline-pumping action. It also offers call vibration alert feature to the users. With in-built mic, it supports seamless hands-free communication. With a playtime of up to 8 hours, remain plugged in to the rhythms of fun, life and energy on your boAt Rockerz 235V2.",
+    price: "2299",
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_be843c79-656c-4745-b260-50e50cc8acd5_1500x.png?v=1661854765",
+  },
+  {
+    id: 8,
+    title: "EarPods",
+    numberOfItem:"0",
+    desc: "Say goodbye to noise from the outside world and plug into your musical serenity with the best wireless headphones boAt Rockerz 235V2. The latest Bluetooth v5.0 in boAt Rockerz 235V2 offers a seamless wireless experience while you listen to your sounds. Now you don’t have to wait for long while the Bluetooth headphones get charged as it also comes with Fast Charging technology. The IPX5 sweat and water resistance offers a shield to your headset, whether you sweat it out at the gym or get indulged in adrenaline-pumping action. It also offers call vibration alert feature to the users. With in-built mic, it supports seamless hands-free communication. With a playtime of up to 8 hours, remain plugged in to the rhythms of fun, life and energy on your boAt Rockerz 235V2.",
+    price: "2399",
+    img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/r650-1_2_1500x.png?v=1646735651",
+  },
+];

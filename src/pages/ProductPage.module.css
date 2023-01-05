@@ -1,0 +1,109 @@
+.wrapper{
+    display: flex;
+    padding: 50px;
+}
+@media only screen and (max-width: 400px) {
+    .wrapper{
+        padding: 10px;
+       flex-direction: column;
+    }
+}
+.imgContainer{
+    flex: 1;
+}
+.imgContainer img{
+    width: 100%;
+    height: 90vh;
+}
+@media only screen and (max-width: 400px) {
+    .imgContainer img{
+       height: 40vh;
+    }
+}
+.infoContainer{
+    flex: 1;
+    padding: 0 50px;
+}
+@media only screen and (max-width: 400px) {
+    .infoContainer{
+       padding: 10px;
+    }
+}
+.infoContainer h1{
+    font-weight: 400;
+}
+.infoContainer p{
+    font-weight: 200;
+    margin: 20px 0px;
+}
+.price{
+    font-size: 40px;
+    font-weight: 100;
+}
+.filterContainer{
+    margin: 25px 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 400px) {
+    .filterContainer{
+       width: 100%;
+    }
+}
+.filter{
+    display: flex;
+    align-items: center;
+}
+.filterTitle{
+    font-size: 20px;
+    font-weight: 200;
+}
+.filterColor{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.filter select{
+    margin: 10px;
+    padding: 5px;
+}
+.filter option{}
+.addContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+@media only screen and (max-width: 400px) {
+    .addContainer{
+       width: 100%;
+    }
+}
+.amountContainer{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.amount{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    border: 1px solid teal;
+}
+.addContainer button{
+    padding: 15px;
+    border: 2px solid teal;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+.addContainer button:hover{
+    background-color: #f5f0f0;
+}

@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+}
+@media only screen and (max-width: 400px) {
+    .container{
+       flex-direction: column;
+    }
+}
+.left{
+    flex: 1;
+    padding: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .left h1{
+        text-align: center;
+    }
+}
+
+.left p{
+    margin: 20px 0;
+}
+.socialContainer{
+    display: flex;
+    gap: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .socialContainer{
+       justify-content: center;
+       gap: 5px;
+    }
+}
+.socialIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.center{
+    flex: 1;
+    padding: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .center{
+       display: none;
+    }
+}
+.center h3{
+    margin-bottom: 30px;
+}
+.center ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.center li{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.right{
+    flex: 1;
+    padding: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .right{
+       background-color: rgb(255, 233, 233);
+    }
+}
+
+.right h3{
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .right h3{
+        text-align: center;
+    }
+}
+.contactItem{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.right img{
+    width: 70%;
+}

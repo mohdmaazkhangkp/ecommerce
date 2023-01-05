@@ -1,0 +1,101 @@
+.container{
+    height: 60px;
+}
+@media only screen and (max-width: 400px) {
+    .container{
+        height: 50px;
+        margin-bottom: 15px;
+    }
+}
+.wrapper{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media only screen and (max-width: 400px) {
+    .wrapper{
+        padding: 10px 0;
+    }
+}
+.left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .right{
+        flex: 2;
+        justify-content: center;
+        gap: 15px;
+        margin-left: -20px;
+       
+    }
+}
+
+.center{
+    flex: 1;
+}
+.lang{
+    cursor: pointer;
+    font-size: 14px;
+}
+@media only screen and (max-width: 400px) {
+    .lang{
+       display: none;
+    }
+}
+
+.searchContainer{
+    border: 0.5px solid grey;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding: 5px;
+}
+@media only screen and (max-width: 400px) {
+    .searchContainer{
+       margin-left: 5px;
+    }
+}
+.input{
+    border: none;
+    outline: none;
+}
+@media only screen and (max-width: 400px) {
+    .input{
+        width: 50px;
+    }
+}
+
+.logo{
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 400px) {
+    .logo{
+        font-size: 14px;
+    }
+}
+.menuItem{
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+   
+}
+@media only screen and (max-width: 400px) {
+    .menuItem{
+        font-size: 12px;
+    }
+}
