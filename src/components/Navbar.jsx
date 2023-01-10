@@ -20,7 +20,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className={classes.center}>
-          <Link className={classes.logo} to="/"><h1 >LAMA</h1></Link>
+          <Link className={classes.logo} to="/"><h1 >MAAZ</h1></Link>
         </div>
         <div className={classes.right}>
         <Link to='/register' className={classes.menuItem}>REGISTER</Link>

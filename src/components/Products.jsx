@@ -6,11 +6,13 @@ import Product from './Product'
 const Products = () => {
 
   return (
+    <>
     <div className={classes.container}>
         {popularProducts.map(item=>(
             <Product item={item} key={item.id}/>
         ))}
     </div>
+    </>
   )
 }
 

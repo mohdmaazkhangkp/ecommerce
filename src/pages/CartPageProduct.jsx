@@ -61,10 +61,10 @@ const CartPageProduct = ({item}) => {
               />
               <div className={classes.details}>
                 <span className={classes.productName}>
-                  <b>Product:</b>{item.title}
+                  <b>Product:  </b>{item.title}
                 </span>
                 <span className={classes.productId}>
-                  <b>ID:</b>{item.id}
+                  <b>ID:  </b>{item.id}
                 </span>
                 <div
                   style={{ backgroundColor: "black" }}

@@ -48,7 +48,7 @@ Tap The Scrap 91/147, Rajpur Khurd extension, New Delhi - 110068
                 <Phone style={{marginRight:"10px"}}/>+91 8800234237
             </div>
             <div className={classes.contactItem}>
-                <MailOutline style={{marginRight:"10px"}}/>abcd@lama.com
+                <MailOutline style={{marginRight:"10px"}}/>abcd@maaz.com
             </div>
             <img alt='' src='https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Payment_new_91fe0802-f10f-44da-a905-c0d6066f782b_700x.png?v=1666253682'/>
         </div>
