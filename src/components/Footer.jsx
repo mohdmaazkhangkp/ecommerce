@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={classes.container}>
         <div className={classes.left}>
-            <h1>LAMA</h1>
+            <h1>E-Shop</h1>
             <p>India's fastest growing audio & wearables brand. The most incredible range of wireless earphones, earbuds, headphones, smart watches, and home audio. From workouts to adventures, boAt will get you sailing!</p>
             <div className={classes.socialContainer}>
                 <div style={{backgroundColor:"#3B5999"}} className={classes.socialIcon}>
